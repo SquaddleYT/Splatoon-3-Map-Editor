@@ -1,0 +1,19 @@
+An item with the same key has already been added. Key: 0
+    at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at SampleMapEditor.LayoutEditor.ObjectDataSelector..ctor(ObservableCollection`1 actors) in D:\Hacking\[Splatoon 3]\[Tools]\[[[Stage-Layout-Editor-Latest-BugFix_3]]}\MapStudio-master\Plugins\SampleMapEditor\Editors\MapEditor\RailEditor\ObjectToRailPointTranslateSelector.cs:line 87
+   at SampleMapEditor.LayoutEditor.RailEditor.EditTransformObjectSelector(RenderablePath renderer, MuRail rail, Int32 Index) in D:\Hacking\[Splatoon 3]\[Tools]\[[[Stage-Layout-Editor-Latest-BugFix_3]]}\MapStudio-master\Plugins\SampleMapEditor\Editors\MapEditor\RailEditor\RailEditor.cs:line 830
+   at SampleMapEditor.LayoutEditor.RailEditor.<>c__DisplayClass39_0.<SetupProperties>b__1(Object <p0>, EventArgs <p1>) in D:\Hacking\[Splatoon 3]\[Tools]\[[[Stage-Layout-Editor-Latest-BugFix_3]]}\MapStudio-master\Plugins\SampleMapEditor\Editors\MapEditor\RailEditor\RailEditor.cs:line 289
+   at MapStudio.UI.PropertyWindow.Render(NodeBase node) in D:\Hacking\[Splatoon 3]\[Tools]\[[[Stage-Layout-Editor-Latest-BugFix_3]]}\MapStudio-master\MapStudio.UI\src\DockedWindows\Properties\PropertyWindow.cs:line 60
+   at MapStudio.UI.PropertyWindow.Render() in D:\Hacking\[Splatoon 3]\[Tools]\[[[Stage-Layout-Editor-Latest-BugFix_3]]}\MapStudio-master\MapStudio.UI\src\DockedWindows\Properties\PropertyWindow.cs:line 32
+   at UIFramework.Window.Show() in D:\Hacking\[Splatoon 3]\[Tools]\[[[Stage-Layout-Editor-Latest-BugFix_3]]}\MapStudio-master\MapStudio.UI\src\UIFramework\Window\Window.cs:line 106
+   at UIFramework.DockSpaceWindow.Render() in D:\Hacking\[Splatoon 3]\[Tools]\[[[Stage-Layout-Editor-Latest-BugFix_3]]}\MapStudio-master\MapStudio.UI\src\UIFramework\Window\DockSpaceWindow.cs:line 55
+   at MapStudio.UI.Workspace.Render() in D:\Hacking\[Splatoon 3]\[Tools]\[[[Stage-Layout-Editor-Latest-BugFix_3]]}\MapStudio-master\MapStudio.UI\src\Workspace\Workspace.cs:line 227
+   at UIFramework.Window.Show() in D:\Hacking\[Splatoon 3]\[Tools]\[[[Stage-Layout-Editor-Latest-BugFix_3]]}\MapStudio-master\MapStudio.UI\src\UIFramework\Window\Window.cs:line 106
+   at MapStudio.MainWindow.Render() in D:\Hacking\[Splatoon 3]\[Tools]\[[[Stage-Layout-Editor-Latest-BugFix_3]]}\MapStudio-master\Track Studio\src\MainWindow.cs:line 131
+   at UIFramework.MainWindow.OnRenderFrame() in D:\Hacking\[Splatoon 3]\[Tools]\[[[Stage-Layout-Editor-Latest-BugFix_3]]}\MapStudio-master\MapStudio.UI\src\UIFramework\MainWindow.cs:line 91
+   at UIFramework.Framework.OnRenderFrame(FrameEventArgs e) in D:\Hacking\[Splatoon 3]\[Tools]\[[[Stage-Layout-Editor-Latest-BugFix_3]]}\MapStudio-master\MapStudio.UI\src\UIFramework\Framework.cs:line 77
+   at OpenTK.GameWindow.RaiseRenderFrame(Double elapsed, Double& timestamp)
+   at OpenTK.GameWindow.DispatchRenderFrame()
+   at OpenTK.GameWindow.Run(Double updates_per_second, Double frames_per_second)
+   at OpenTK.GameWindow.Run()
+   at MapStudio.Program.Main(String[] args) in D:\Hacking\[Splatoon 3]\[Tools]\[[[Stage-Layout-Editor-Latest-BugFix_3]]}\MapStudio-master\Track Studio\src\Program.cs:line 55
